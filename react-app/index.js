@@ -6,6 +6,7 @@ import IntroCarousel from "./homepage/intro-carousel";
 import HotTickets from "./homepage/hot-tickets";
 import BrowseByCategory from "./homepage/browse-by-category";
 import SellerSection from "./homepage/seller-section";
+import FeaturedSection from "./homepage/featured-section";
 
 const App = () =>(
     <React.Fragment>
@@ -14,6 +15,7 @@ const App = () =>(
       <HotTickets/>
       <BrowseByCategory/>
       <SellerSection/>
+      <FeaturedSection/>
     </React.Fragment>
 );
 
