@@ -3,227 +3,58 @@ import React from "react";
 const BrowseByCategory = ()=> {
   return (
 
-      <section className="hot-ticket-sec ticket-boxes">
+      <section className="home-cat-sec text-center">
         <div className="container">
-          <h2 className="site-title">Hot Tickets <small>Get tickets to your favourite events</small></h2>
+          <h2 className="site-title">Browse by top categories</h2>
           <div className="row">
-            <div className="col-xs-12 col-sm-6 col-lg-4">
-              <div className="box">
-                <div className="dropdown visiter-icon">
-                  <a href="#" className="dropdown-toggle" type="button" data-toggle="dropdown"><span className="glyphicon glyphicon-user" aria-hidden="true" /></a>
-                  <div className="dropdown-menu">
-                    <p>Who's attending (9)</p>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                  </div>
+            <div className="col-sm-4 cat-box">
+              <a href="#" className="block-link">
+                <div className="cat-txt">
+                  <h3>Concerts</h3>
                 </div>
-                <a href="#" className="block-link">
-                  <div className="ticket-img">
-                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif" alt />
-                    <span className="ticket-price">INR 50 - 2,500</span>
-                  </div>
-                  <div className="ticket-info">
-                    <span className="time-info">SAT, FEB 10, 2018 20:00 Onward</span>
-                    <h3 className="ticket-title">JamshedpurFC - ISL Season 4</h3>
-                    <p className="venue-info">JRD Tata Sports Complex, Bhubaneshwar, Jamshedpur</p>
-                  </div>
-                </a>
-                <div className="social clearfix">
-                  <div className="pull-left">
-                    <a className="btn btn-default btn-xs ical" href="#">
-                      <i className="fa fa-calendar" /> &nbsp;iCal</a>
-                    <a className="btn btn-default btn-xs ml-10" href="#">
-                      <i className="fa fa-calendar" /> &nbsp;Google</a>
-                  </div>
-                  <div className="pull-right">
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-facebook" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-twitter" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-twitter" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-linkedin" /></a>
-                  </div>
-                </div>
-              </div>
+                <img src="https://static2.kyazoonga.com/Images/kzconsumer/top-categories/concerts-cat1.jpg" alt className="img-full-width" />
+              </a>
             </div>
-            <div className="col-xs-12 col-sm-6 col-lg-4">
-              <div className="box">
-                <a href="#" className="block-link">
-                  <div className="ticket-img">
-                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif" alt />
-                    <span className="ticket-price">INR 50 - 2,500</span>
-                  </div>
-                  <div className="ticket-info">
-                    <span className="time-info">SAT, FEB 10, 2018 20:00 Onward</span>
-                    <h3 className="ticket-title">JamshedpurFC - ISL Season 4</h3>
-                    <p className="venue-info">JRD Tata Sports Complex, Bhubaneshwar, Jamshedpur</p>
-                  </div>
-                </a>
-                <div className="social clearfix">
-                  <div className="pull-left">
-                    <a className="btn btn-default btn-xs ical" href="#">
-                      <i className="fa fa-calendar" /> &nbsp;iCal</a>
-                    <a className="btn btn-default btn-xs ml-10" href="#">
-                      <i className="fa fa-calendar" /> &nbsp;Google</a>
-                  </div>
-                  <div className="pull-right">
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-facebook" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-twitter" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-twitter" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-linkedin" /></a>
-                  </div>
+            <div className="col-sm-4 cat-box">
+              <a href="#" className="block-link">
+                <div className="cat-txt">
+                  <h3>Cricket</h3>
                 </div>
-              </div>
+                <img src="https://static2.kyazoonga.com/Images/kzconsumer/top-categories/cricket-cat1.jpg" alt className="img-full-width" />
+              </a>
             </div>
-            <div className="col-xs-12 col-sm-6 col-lg-4">
-              <div className="box">
-                <a href="#" className="block-link">
-                  <div className="ticket-img">
-                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif" alt />
-                    <span className="ticket-price">INR 50 - 2,500</span>
-                  </div>
-                  <div className="ticket-info">
-                    <span className="time-info">SAT, FEB 10, 2018 20:00 Onward</span>
-                    <h3 className="ticket-title">JamshedpurFC - ISL Season 4</h3>
-                    <p className="venue-info">JRD Tata Sports Complex, Bhubaneshwar, Jamshedpur</p>
-                  </div>
-                </a>
-                <div className="social clearfix">
-                  <div className="pull-left">
-                    <a className="btn btn-default btn-xs ical" href="#">
-                      <i className="fa fa-calendar" /> &nbsp;iCal</a>
-                    <a className="btn btn-default btn-xs ml-10" href="#">
-                      <i className="fa fa-calendar" /> &nbsp;Google</a>
-                  </div>
-                  <div className="pull-right">
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-facebook" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-twitter" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-twitter" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-linkedin" /></a>
-                  </div>
+            <div className="col-sm-4 cat-box">
+              <a href="#" className="block-link">
+                <div className="cat-txt">
+                  <h3>Theatre &amp; Arts</h3>
                 </div>
-              </div>
+                <img src="https://static2.kyazoonga.com/Images/kzconsumer/top-categories/theatre-cat.jpg" alt className="img-full-width" />
+              </a>
             </div>
-            <div className="col-xs-12 col-sm-6 col-lg-4">
-              <div className="box">
-                <a href="#" className="block-link">
-                  <div className="ticket-img">
-                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif" alt />
-                    <span className="ticket-price">INR 50 - 2,500</span>
-                  </div>
-                  <div className="ticket-info">
-                    <span className="time-info">SAT, FEB 10, 2018 20:00 Onward</span>
-                    <h3 className="ticket-title">JamshedpurFC - ISL Season 4</h3>
-                    <p className="venue-info">JRD Tata Sports Complex, Bhubaneshwar, Jamshedpur</p>
-                  </div>
-                </a>
-                <div className="social clearfix">
-                  <div className="pull-left">
-                    <a className="btn btn-default btn-xs ical" href="#">
-                      <i className="fa fa-calendar" /> &nbsp;iCal</a>
-                    <a className="btn btn-default btn-xs ml-10" href="#">
-                      <i className="fa fa-calendar" /> &nbsp;Google</a>
-                  </div>
-                  <div className="pull-right">
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-facebook" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-twitter" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-twitter" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-linkedin" /></a>
-                  </div>
+            <div className="col-sm-4 cat-box">
+              <a href="#" className="block-link">
+                <div className="cat-txt">
+                  <h3>Amusement Parks</h3>
                 </div>
-              </div>
+                <img src="https://static2.kyazoonga.com/Images/kzconsumer/top-categories/amusementparks-cat.jpg" alt className="img-full-width" />
+              </a>
             </div>
-            <div className="col-xs-12 col-sm-6 col-lg-4">
-              <div className="box">
-                <a href="#" className="block-link">
-                  <div className="ticket-img">
-                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif" alt />
-                    <span className="ticket-price">INR 50 - 2,500</span>
-                  </div>
-                  <div className="ticket-info">
-                    <span className="time-info">SAT, FEB 10, 2018 20:00 Onward</span>
-                    <h3 className="ticket-title">JamshedpurFC - ISL Season 4</h3>
-                    <p className="venue-info">JRD Tata Sports Complex, Bhubaneshwar, Jamshedpur</p>
-                  </div>
-                </a>
-                <div className="social clearfix">
-                  <div className="pull-left">
-                    <a className="btn btn-default btn-xs ical" href="#">
-                      <i className="fa fa-calendar" /> &nbsp;iCal</a>
-                    <a className="btn btn-default btn-xs ml-10" href="#">
-                      <i className="fa fa-calendar" /> &nbsp;Google</a>
-                  </div>
-                  <div className="pull-right">
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-facebook" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-twitter" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-twitter" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-linkedin" /></a>
-                  </div>
+            <div className="col-sm-4 cat-box">
+              <a href="#" className="block-link">
+                <div className="cat-txt">
+                  <h3>Sports</h3>
                 </div>
-              </div>
+                <img src="https://static2.kyazoonga.com/Images/kzconsumer/top-categories/sports-cat.jpg" alt className="img-full-width" />
+              </a>
             </div>
-            <div className="col-xs-12 col-sm-6 col-lg-4">
-              <div className="box">
-                <a href="#" className="block-link">
-                  <div className="ticket-img">
-                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif" alt />
-                    <span className="ticket-price">INR 50 - 2,500</span>
-                  </div>
-                  <div className="ticket-info">
-                    <span className="time-info">SAT, FEB 10, 2018 20:00 Onward</span>
-                    <h3 className="ticket-title">JamshedpurFC - ISL Season 4</h3>
-                    <p className="venue-info">JRD Tata Sports Complex, Bhubaneshwar, Jamshedpur</p>
-                  </div>
-                </a>
-                <div className="social clearfix">
-                  <div className="pull-left">
-                    <a className="btn btn-default btn-xs ical" href="#">
-                      <i className="fa fa-calendar" /> &nbsp;iCal</a>
-                    <a className="btn btn-default btn-xs ml-10" href="#">
-                      <i className="fa fa-calendar" /> &nbsp;Google</a>
-                  </div>
-                  <div className="pull-right">
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-facebook" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-twitter" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-twitter" /></a>
-                    <a className="btn btn-default btn-xs btn-circle" href="#">
-                      <i className="fa fa-linkedin" /></a>
-                  </div>
+            <div className="col-sm-4 cat-box">
+              <a href="#" className="block-link">
+                <div className="cat-txt">
+                  <h3>Restaurants</h3>
                 </div>
-              </div>
+                <img src="https://static2.kyazoonga.com/Images/kzconsumer/top-categories/restaurants-cat.jpg" alt className="img-full-width" />
+              </a>
             </div>
-          </div>
-          <div className="btn-sec text-center p-20 pt-0">
-            <a href="#" className="btn btn-primary btn-custome-lg">Discover More</a>
           </div>
         </div>
       </section>
