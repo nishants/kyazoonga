@@ -8,6 +8,7 @@ const SellerSection = ()=> {
           <div className="row">
             <div className="col-sm-6 cat-box">
               <div id="dvYoutube">
+                <iframe style={{width: '100%', height: 400}} src="https://www.youtube.com/embed/IyucJZev9wM" frameBorder={0} webkitallowfullscreen mozallowfullscreen allowFullScreen />
               </div>
             </div>
             <div className="col-sm-6 cat-box">

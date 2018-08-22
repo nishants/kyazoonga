@@ -18,7 +18,14 @@ const IntroCarousel = ()=> {
               <li><a href="#">Parties</a></li>
             </ul>
           </div>
-          <div className="banner-serch-box"><input id="txtSearchBox" className name="q" defaultValue placeholder="Search for an event, venue or city" type="text" /><a href="javascript:void(0);" onclick="searchfor();"><i className="fa fa-search" aria-hidden="true" /></a></div>
+          <div className="banner-serch-box">
+            <input id="txtSearchBox"
+                   className name="q"
+                   defaultValue
+                   placeholder="Search for an event, venue or city"
+                   type="text"/><a
+              href="javascript:void(0);" onClick="searchfor();"><i className="fa fa-search" aria-hidden="true"/></a>
+          </div>
         </div>
         {/* Carousel items */}
         <div className="carousel-inner">
