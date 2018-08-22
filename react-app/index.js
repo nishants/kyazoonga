@@ -5,6 +5,7 @@ import NavBar from "./components/nav-bar";
 import IntroCarousel from "./homepage/intro-carousel";
 import HotTickets from "./homepage/hot-tickets";
 import BrowseByCategory from "./homepage/browse-by-category";
+import SellerSection from "./homepage/seller-section";
 
 const App = () =>(
     <React.Fragment>
@@ -12,6 +13,7 @@ const App = () =>(
       <IntroCarousel/>
       <HotTickets/>
       <BrowseByCategory/>
+      <SellerSection/>
     </React.Fragment>
 );
 
