@@ -13,21 +13,21 @@ const BrowseByCategory = ()=> {
                   <a href="#" className="dropdown-toggle" type="button" data-toggle="dropdown"><span className="glyphicon glyphicon-user" aria-hidden="true" /></a>
                   <div className="dropdown-menu">
                     <p>Who's attending (9)</p>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
-                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg" alt /> </a>
+                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg"   /> </a>
+                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg"   /> </a>
+                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg"   /> </a>
+                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg"   /> </a>
+                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg"   /> </a>
+                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg"   /> </a>
+                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg"   /> </a>
+                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg"   /> </a>
+                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg"   /> </a>
+                    <a href="#"> <img src="http://www.kyazoonga.com/images/rsvp-blank-1.jpg"   /> </a>
                   </div>
                 </div>
                 <a href="#" className="block-link">
                   <div className="ticket-img">
-                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif" alt />
+                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif"   />
                     <span className="ticket-price">INR 50 - 2,500</span>
                   </div>
                   <div className="ticket-info">
@@ -60,7 +60,7 @@ const BrowseByCategory = ()=> {
               <div className="box">
                 <a href="#" className="block-link">
                   <div className="ticket-img">
-                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif" alt />
+                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif"   />
                     <span className="ticket-price">INR 50 - 2,500</span>
                   </div>
                   <div className="ticket-info">
@@ -93,7 +93,7 @@ const BrowseByCategory = ()=> {
               <div className="box">
                 <a href="#" className="block-link">
                   <div className="ticket-img">
-                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif" alt />
+                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif"   />
                     <span className="ticket-price">INR 50 - 2,500</span>
                   </div>
                   <div className="ticket-info">
@@ -126,7 +126,7 @@ const BrowseByCategory = ()=> {
               <div className="box">
                 <a href="#" className="block-link">
                   <div className="ticket-img">
-                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif" alt />
+                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif"   />
                     <span className="ticket-price">INR 50 - 2,500</span>
                   </div>
                   <div className="ticket-info">
@@ -159,7 +159,7 @@ const BrowseByCategory = ()=> {
               <div className="box">
                 <a href="#" className="block-link">
                   <div className="ticket-img">
-                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif" alt />
+                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif"   />
                     <span className="ticket-price">INR 50 - 2,500</span>
                   </div>
                   <div className="ticket-info">
@@ -192,7 +192,7 @@ const BrowseByCategory = ()=> {
               <div className="box">
                 <a href="#" className="block-link">
                   <div className="ticket-img">
-                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif" alt />
+                    <img src="http://54.149.90.101/EventBuilder/Images/sport/ht-isl-jfc.gif"   />
                     <span className="ticket-price">INR 50 - 2,500</span>
                   </div>
                   <div className="ticket-info">

@@ -35,7 +35,7 @@ class IntroCarousel extends React.Component{
             </div>
             <div className="banner-serch-box">
               <input id="txtSearchBox"
-                     className name="q"
+                     name="q"
                      value={this.state.searchFor}
                      onChange={(e) => this.setSearchKey(e)}
                      placeholder="Search for an event, venue or city"
@@ -47,35 +47,35 @@ class IntroCarousel extends React.Component{
           <div className="carousel-inner">
             {/* slide #1 */}
             <div data-slide={0} className="item active">
-              <img src="http://content.kyazoonga.com/Footer/slider-1.jpg" alt className="hide-on-desktop" />
+              <img src="http://content.kyazoonga.com/Footer/slider-1.jpg" className="hide-on-desktop" />
               <div className="hide-on-mobile">
                 <video title={0} id="bgvid0" autoPlay loop muted poster="http://content.kyazoonga.com/Footer/slider-1.jpg">
                   <source src="http://content.kyazoonga.com/videos/video9.mp4" type="video/mp4" />Your browser does not support the video tag.</video>
               </div>
             </div>
             <div data-slide={1} className="item">
-              <img src="http://content.kyazoonga.com/Footer/slider-1.jpg" alt className="hide-on-desktop" />
+              <img src="http://content.kyazoonga.com/Footer/slider-1.jpg"  className="hide-on-desktop" />
               <div className="hide-on-mobile">
                 <video title={1} id="bgvid1" autoPlay loop muted poster="http://content.kyazoonga.com/Footer/slider-1.jpg">
                   <source src="http://content.kyazoonga.com/videos/video1.mp4" type="video/mp4" />Your browser does not support the video tag.</video>
               </div>
             </div>
             <div data-slide={2} className="item">
-              <img src="http://content.kyazoonga.com/Footer/slider-1.jpg" alt className="hide-on-desktop" />
+              <img src="http://content.kyazoonga.com/Footer/slider-1.jpg" className="hide-on-desktop" />
               <div className="hide-on-mobile">
                 <video title={2} id="bgvid2" autoPlay loop muted poster="http://content.kyazoonga.com/Footer/slider-1.jpg">
                   <source src="http://content.kyazoonga.com/videos/video2.mp4" type="video/mp4" />Your browser does not support the video tag.</video>
               </div>
             </div>
             <div data-slide={3} className="item">
-              <img src="http://content.kyazoonga.com/Footer/slider-1.jpg" alt className="hide-on-desktop" />
+              <img src="http://content.kyazoonga.com/Footer/slider-1.jpg" className="hide-on-desktop" />
               <div className="hide-on-mobile">
                 <video title={3} id="bgvid3" autoPlay loop muted poster="http://content.kyazoonga.com/Footer/slider-1.jpg">
                   <source src="http://content.kyazoonga.com/videos/video3.mp4" type="video/mp4" />Your browser does not support the video tag.</video>
               </div>
             </div>
             <div data-slide={4} className="item">
-              <img src="http://content.kyazoonga.com/Footer/slider-1.jpg" alt className="hide-on-desktop" />
+              <img src="http://content.kyazoonga.com/Footer/slider-1.jpg" className="hide-on-desktop" />
               <div className="hide-on-mobile">
                 <video title={4} id="bgvid4" autoPlay loop muted poster="http://content.kyazoonga.com/Footer/slider-1.jpg">
                   <source src="http://content.kyazoonga.com/videos/video8.mp4" type="video/mp4" />Your browser does not support the video tag.</video>
