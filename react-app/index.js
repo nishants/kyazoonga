@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import NavBar from "./components/nav-bar";
+import Footer from "./components/footer";
+
 import IntroCarousel from "./homepage/intro-carousel";
 import HotTickets from "./homepage/hot-tickets";
 import BrowseByCategory from "./homepage/browse-by-category";
@@ -16,6 +18,7 @@ const App = () =>(
       <BrowseByCategory/>
       <SellerSection/>
       <FeaturedSection/>
+      <Footer/>
     </React.Fragment>
 );
 
